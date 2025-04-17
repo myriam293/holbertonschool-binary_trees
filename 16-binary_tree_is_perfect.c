@@ -5,9 +5,7 @@
 /**
  * binary_tree_is_perfect - A function that
  * checks if a binary tree is perfect.
- *
  * @tree: A pointer to the root of the tree.
- *
  * Return: 1 if binary tree is perfect or 0 in otherwise.
  */
 
@@ -23,10 +21,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 /**
  *  binary_tree_is_full - A function that checks if a binary tree is full.
- *
  * @tree: A pointer to the root node of the tree.
- *
- * Return 1: 1 if tree is full or 0 in otherwise.
+ *  Return: 1 if tree is full, 0 otherwise.
  */
 
 int binary_tree_is_full(const binary_tree_t *tree)
@@ -44,9 +40,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 /**
  * binary_tree_balance - A function that measures the balance factor of a
  * binary tree.
- *
  * @tree: A pointer to the root node to calculate balance factor.
- *
  * Return: The balance factor of the tree.
  */
 
@@ -64,9 +58,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 /**
  * binary_tree_height - A function that measures the height of a binary tree.
- *
  * @tree: root node to draw height to draw height from for tree.
- *
  * Return: size_t representing height, 0 on failure or NULL.
  */
 
