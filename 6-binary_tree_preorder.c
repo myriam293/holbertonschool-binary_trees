@@ -7,6 +7,7 @@
  * a binary tree using pre-order traversal.
  * @tree: const pointer to root node to begin traversal at.
  * @func: function to call on tree node's data.
+ * Return: nothing
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
